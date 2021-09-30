@@ -2,11 +2,11 @@
 
 int main(void) {
   long long a,b,c; 
-  printf("Enter an integer: "); 
+  printf("Enter an integer: \n"); 
   scanf("%lld",&a);
-  printf("Enter another integer: "); 
+  printf("Enter another integer: \n"); 
   scanf("%lld",&b);
   c = a*b; 
-  printf("Number = %lld \n",c);
+  printf("\n Number = %lld \n",c);
   return 0;
 }
