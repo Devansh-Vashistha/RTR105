@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    printf("use a() ab() abc(_) abcd(_) functions \n")
+    printf("use a() ab() abc(_) abcd(_) functions \n");
     void a(void){
         printf("Void given, Void Returned \n");
     }
