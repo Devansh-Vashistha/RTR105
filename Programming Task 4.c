@@ -2,8 +2,9 @@
 int main ()
 {
   int a, b, c;
-  long long d;
+  long long d,e;
   a = 1;
+  e = 1;
   b = 1;
   printf ("please enter the type of datatype that you are entering \n");
   printf ("please enter 1 for int datatype  \n");
@@ -30,10 +31,10 @@ int main ()
       scanf ("%lld", &d);
       while(b<=d)
         {
-        a=a*b;
+        e=e*b;
         b=b+1;
         }
-    printf("The Factorial of %lld is : %lld",d,a);
+    printf("The Factorial of %lld is : %lld",d,e);
     }
 
 return 0;
