@@ -5,7 +5,7 @@ int main()
     int d;
     printf("please enter 3 inputs as follows \n");
     printf("please enter 1st input \n");
-    scanf(" %c",&a);
+    scanf("%c",&a);
     printf("please enter 2nd input \n");
     scanf(" %c",&b);
     printf("please enter 3rd input \n");
