@@ -1,37 +1,70 @@
 #include <stdio.h>
 int main ()
 {
-  int a, b, c,i;
-  long long d,e;
-  a = 1;
-  e=1;
+  int a, b, c, d;
+  char a0, b0, c0, d0;
+  long long a1, b1, c1, d1;
   b = 1;
+  c = 1;
+  d = 1;
+  b0 = 1;
+  c0 = 1;
+  d0 = 1;
+  b1 = 1;
+  c1 = 1;
+  d1 = 1;
   printf ("please enter the type of datatype that you are entering \n");
   printf ("please enter 1 for int datatype  \n");
   printf ("please enter 2 for char datatype  \n");
   printf ("please enter 3 for long long datatype  \n");
-  scanf ("%d", &c);
+  scanf ("%d", &a);
   
-    if(c==2){
-      printf("Sorry The factorial is not possible");
-      return 0;
-    }
-    else if(c==1){
+  if(a==1){
       printf ("please enter the number \n");
-      scanf ("%d", &c);
-      for(i=1;i<=c;i++){
-        a=a*i;
-        }
-    printf("The Factorial of %d is : %d",c,a);
-    }
-    else if(c==3){
-      printf ("please enter the number \n");
-      scanf ("%lld", &d);
-      for(i=1;i<=d;i++){
-        e=e*i;
+      scanf ("%d", &a);
+      for(b=1;b<=a;b++){
+        c=c*b;
       }
-    printf("The Factorial of %lld is : %lld",d,e);
-    }
-
-return 0;
+      b = 1;
+      for(b=1;b<=(a-1);b++){
+        d=d*b;
+      }
+      if(c/d == a){
+        printf("The Factorial of %d is : %d",a,c);
+      }
+      else{
+          printf("The Factorial is not possible");
+      }
+  }
+  
+  if(a==2){
+      printf ("please enter the number \n");
+      scanf ("%hhd", &a0);
+      for(b0=1;b0<=a0;b0++){
+        c0=c0*b0;
+      }
+      b0 = 1;
+      for(b0=1;b0<=(a0-1);b0++){
+        d0=d0*b0;
+      }
+      if(c0/d0 == a0){
+        printf("The Factorial of %hhd is : %hhd",a0,c0);
+      }
+      else{
+          printf("The Factorial is not possible");
+      }
+  }
+  if(a==3){
+      printf ("please enter the number \n");
+      scanf ("%lld", &a1);
+      for(b1=1;b1<=a1;b1++){
+        c1=c1*b1;
+      }
+      b1 = 1;
+      for(b1=1;b1<=(a1-1);b1++){
+        d1=d1*b1;
+      }
+      printf("The Factorial of %lld is : %lld",a1,c1);
+      }
+  return 0;
 }
