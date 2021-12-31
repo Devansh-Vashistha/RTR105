@@ -36,7 +36,7 @@ int main ()
   return 0;
 }
   if(a==2){
-      printf ("please enter the number and under 127 \n");
+      printf ("please enter the number and under 128 \n");
       scanf ("%hhd", &a0);
       for(b0=1;b0<=a0;b0++){
         c0=c0*b0;
