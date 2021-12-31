@@ -2,7 +2,7 @@
 int main ()
 {
   int a, b, c, d;
-  char a0, b0, c0, d0, e0;
+  char a0, b0, c0, d0;
   long long a1, b1, c1, d1;
   b = 1;
   c = 1;
@@ -26,7 +26,7 @@ int main ()
         c=c*b;
         if (b!=1){
             d=d*(b-1);
-            if(c/d != b){
+            if((c/d != b)||(a<0)){
             printf("The Factorial is not possible \n");
             return 0;
         }
@@ -35,16 +35,15 @@ int main ()
   printf("The Factorial of %d is : %d",a,c);
   return 0;
 }
-////////////////////////////////////////////////////////////////////////////////  
   if(a==2){
-      printf ("please enter the number \n");
+      printf ("please enter the number and under 127 \n");
       scanf ("%hhd", &a0);
       for(b0=1;b0<=a0;b0++){
         c0=c0*b0;
-        //printf("%hhd \n", b0);
+       
         if (b0!=1){
-            d0=d0*b0;
-            if(c0/d0 != b0){
+            d0=d0*(b0-1);
+            if((c0/d0 != b0)||(a<0)){
                 printf("The Factorial is not possible \n");
             return 0;
         }
@@ -53,7 +52,6 @@ int main ()
   printf("The Factorial of %hhd is : %hhd",a0,c0);
   return 0;
   }
-////////////////////////////////////////////////////////////////////////////////
   if(a==3){
       printf ("please enter the number \n");
       scanf ("%lld", &a1);
@@ -61,7 +59,7 @@ int main ()
         c1=c1*b1;
         if (b1!=1){
             d1=d1*(b1-1);
-            if(c1/d1 != b1){
+            if((c1/d1 != b1)||(a<0)){
             printf("The Factorial is not possible \n");
             return 0;
         }
