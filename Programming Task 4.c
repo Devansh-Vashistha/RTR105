@@ -2,7 +2,7 @@
 int main ()
 {
   int a, b, c, d;
-  char a0, b0, c0, d0;
+  char a0, b0, c0, d0, e0;
   long long a1, b1, c1, d1;
   b = 1;
   c = 1;
@@ -24,47 +24,51 @@ int main ()
       scanf ("%d", &a);
       for(b=1;b<=a;b++){
         c=c*b;
-      }
-      b = 1;
-      for(b=1;b<=(a-1);b++){
-        d=d*b;
-      }
-      if(c/d == a){
-        printf("The Factorial of %d is : %d",a,c);
-      }
-      else{
-          printf("The Factorial is not possible");
+        if (b!=1){
+            d=d*(b-1);
+            if(c/d != b){
+            printf("The Factorial is not possible \n");
+            return 0;
+        }
       }
   }
-  
+  printf("The Factorial of %d is : %d",a,c);
+  return 0;
+}
+////////////////////////////////////////////////////////////////////////////////  
   if(a==2){
       printf ("please enter the number \n");
       scanf ("%hhd", &a0);
       for(b0=1;b0<=a0;b0++){
         c0=c0*b0;
-      }
-      b0 = 1;
-      for(b0=1;b0<=(a0-1);b0++){
-        d0=d0*b0;
-      }
-      if(c0/d0 == a0){
-        printf("The Factorial of %hhd is : %hhd",a0,c0);
-      }
-      else{
-          printf("The Factorial is not possible");
+        //printf("%hhd \n", b0);
+        if (b0!=1){
+            d0=d0*b0;
+            if(c0/d0 != b0){
+                printf("The Factorial is not possible \n");
+            return 0;
+        }
       }
   }
+  printf("The Factorial of %hhd is : %hhd",a0,c0);
+  return 0;
+  }
+////////////////////////////////////////////////////////////////////////////////
   if(a==3){
       printf ("please enter the number \n");
       scanf ("%lld", &a1);
       for(b1=1;b1<=a1;b1++){
         c1=c1*b1;
+        if (b1!=1){
+            d1=d1*(b1-1);
+            if(c1/d1 != b1){
+            printf("The Factorial is not possible \n");
+            return 0;
+        }
       }
-      b1 = 1;
-      for(b1=1;b1<=(a1-1);b1++){
-        d1=d1*b1;
-      }
-      printf("The Factorial of %lld is : %lld",a1,c1);
-      }
+  }
+  printf("The Factorial of %lld is : %lld",a1,c1);
   return 0;
+  }  
+return 0;
 }
