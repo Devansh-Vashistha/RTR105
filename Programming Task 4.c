@@ -20,9 +20,13 @@ int main ()
   scanf ("%d", &a);
   
   if(a==1){
-      printf ("please enter the number \n");
+      printf ("please enter the positive number under 32768 \n");
       scanf ("%d", &a);
-      for(b=1;b<=a;b++){
+      if(a==0){
+        printf("The Factorial of 0 is : 1");
+        return 0;  
+      }
+      while(b<=a){
         c=c*b;
         if (b!=1){
             d=d*(b-1);
@@ -31,14 +35,19 @@ int main ()
             return 0;
         }
       }
+      b++;
   }
   printf("The Factorial of %d is : %d",a,c);
   return 0;
 }
   if(a==2){
-      printf ("please enter the number and under 127 \n");
+      printf ("please enter the positive number under 128 \n");
       scanf ("%hhd", &a0);
-      for(b0=1;b0<=a0;b0++){
+      if(a==0){
+        printf("The Factorial of 0 is : 1");
+        return 0;  
+      }
+      while(b0<=a0){
         c0=c0*b0;
        
         if (b0!=1){
@@ -48,14 +57,19 @@ int main ()
             return 0;
         }
       }
+      b0++;
   }
   printf("The Factorial of %hhd is : %hhd",a0,c0);
   return 0;
   }
   if(a==3){
-      printf ("please enter the number \n");
+      printf ("please enter the positive number under 9223372036854775808 \n");
       scanf ("%lld", &a1);
-      for(b1=1;b1<=a1;b1++){
+      if(a==0){
+        printf("The Factorial of 0 is : 1");
+        return 0;  
+      }
+      while(b1<=a1){
         c1=c1*b1;
         if (b1!=1){
             d1=d1*(b1-1);
@@ -64,6 +78,7 @@ int main ()
             return 0;
         }
       }
+      b1++;
   }
   printf("The Factorial of %lld is : %lld",a1,c1);
   return 0;
