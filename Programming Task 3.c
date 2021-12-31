@@ -3,7 +3,7 @@ int main()
 {
     char a,b,c;
     int d;
-    printf("please enter 3 inputs as follows, only one symbol please \n");
+    printf("please enter 3 inputs as follows   only one symbol please \n");
     printf("please enter 1st input \n");
     scanf("%c",&a);
     printf("please enter 2nd input \n");
