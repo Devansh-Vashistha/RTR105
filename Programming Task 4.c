@@ -52,7 +52,7 @@ int main ()
        
         if (b0!=1){
             d0=d0*(b0-1);
-            if((c0/d0 != b0)||(a<0)){
+            if((c0/d0 != b0)||(a0<0)){
                 printf("The Factorial is not possible \n");
             return 0;
         }
@@ -73,7 +73,7 @@ int main ()
         c1=c1*b1;
         if (b1!=1){
             d1=d1*(b1-1);
-            if((c1/d1 != b1)||(a<0)){
+            if((c1/d1 != b1)||(a1<0)){
             printf("The Factorial is not possible \n");
             return 0;
         }
