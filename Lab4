@@ -15,7 +15,7 @@ int main(void) {
   i2 = (b-a)/2 * (cosh(sqrt(a))+cosh(sqrt(b)));
   while(fabs(i2-i1)>dx || n==2){
     n = n*2;
-    h = (b-a)/n;
+    h = fabs(b-a)/n;
     i1 = i2;
     i2 = 0;
     for(k=0;k<n;k++){
@@ -27,14 +27,22 @@ int main(void) {
   ////////////////////RECTANGLE////////////////////
 
   ////////////////////Trap////////////////////
-  while(fabs(integral_new-integral)>=eps)
+  i2 = (b-a)/2 * (cosh(sqrt(a))+cosh(sqrt(b)));
+  i1 = 0.;
+  n = 2;
+  dx = dx/10;
+  while(fabs(i2-i1)>=dx || n==2){
+  n = n*2;
   h=fabs(b-a)/n;
-  for(k=1;k<n;k++){
-    x=a+k*h;
-    s=s + cosh(sqrt(x));
+  i1 = i2;
+  i2 = 0;
+  for(k=0;k<n;k++){
+    i2 = ( (h/2)*( cosh(sqrt(a + (k*h))) + cosh(sqrt(a + ((k+1)*h)))) ) + i2;
   }
-  i_t=(h/2)*(cosh(sqrt(a)) + cosh(sqrt(b)) + (2*s));
+  }
+  printf("Value of integral: %.3f (trapezium taken: %d) \n",i2,n);
+  ////////////////////Trap////////////////////
 
   
-  return 0;
+return 0;
 }
