@@ -20,7 +20,7 @@ int main(void) {
     f2x_a =  ( cosh(sqrt(x)) - (sinh(sqrt(x)) / sqrt(x)) ) / (4*x);
 
 
-    f2x_f = ((sinh(sqrt(x+dx))/(2*sqrt(x+dx))) - ((sinh(sqrt(x)))/(2*sqrt(x))))/ dx;
+    f2x_f = ( cosh(sqrt(x+dx+dx)) - (2*cosh(sqrt(x+dx))) + cosh(sqrt(x)) )/ (dx*dx);
     
     printf("%.2f \t %.2f \t %.2f \t %.2f \t %.2f \t %.2f \n",x,fx,f1x_a,f1x_f,f2x_a,f2x_f);
     //printf("%.2f \t %.2f \t %.2f \t %.2f \n",x,fx,f1x_a,f1x_f);
