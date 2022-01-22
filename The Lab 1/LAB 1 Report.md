@@ -7,7 +7,7 @@
 - [x] 2. [Code](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#code)
 - [x] 3. [Reoccurence Factor](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#reoccurence-factor)
 - [x] 4. [Example](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#example)
-- [x] 5. [Results of Example by GNU Plot](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#results-of-example-by-gnu-plot)
+- [x] 5. [Results of Example by GNU Plot](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#results-of-the-example)
 
 
 ## Expression with plotting
