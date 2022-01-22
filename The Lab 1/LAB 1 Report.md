@@ -11,4 +11,4 @@
 
 
 ## Expression with plotting
-![formula](https://github.com/Devansh-Vashistha/RTR105/blob/5bb351a95ce41fd495cb67722a17c26a336dab9a/The%20Lab%201/CodeCogsEqn.svg)
+![formula](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/CodeCogsEqn.svg)
