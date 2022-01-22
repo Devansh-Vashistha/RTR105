@@ -5,9 +5,9 @@
 ## Content
 - [x] 1. [Expression with plotting](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#expression-with-plotting)
 - [x] 2. [Code](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#code)
-- [x] 3. Reoccurence Factor
-- [x] 4. Example
-- [x] 5. Results of Example by GNU Plot
+- [x] 3. [Reoccurence Factor](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#reoccurence-factor)
+- [x] 4. [Example](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#example)
+- [x] 5. [Results of Example by GNU Plot](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#results-of-example-by-gnu-plot)
 
 
 ## Expression with plotting
