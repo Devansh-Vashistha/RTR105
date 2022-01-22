@@ -3,7 +3,7 @@
 
 
 ## Content
-- [x] 1. Expression with plotting 
+- [x] 1. [Expression with plotting](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#expression-with-plotting)
 - [x] 2. Code 
 - [x] 3. Reoccurence Factor
 - [x] 4. Example
