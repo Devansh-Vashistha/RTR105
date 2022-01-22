@@ -13,6 +13,9 @@
 ## Expression with plotting
 ![CodeCogsEqn](https://user-images.githubusercontent.com/89969531/150640846-43b6c909-44e0-424e-9468-56c2401d0c7f.svg)
 
+![Lab1Photo](https://user-images.githubusercontent.com/89969531/150655943-59e83d37-7a77-49e4-b87b-b3693e3e2d02.png)
+![Lab 1](https://user-images.githubusercontent.com/89969531/150655947-721e5ddd-73aa-437f-9211-1177a65327cc.png)
+![Lab 1 magnified](https://user-images.githubusercontent.com/89969531/150655948-036273d3-90ce-4086-ad50-31e1011f3491.png)
 
 
 ## Code
