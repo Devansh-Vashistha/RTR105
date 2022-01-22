@@ -7,7 +7,7 @@
 - [x] 2. [Code](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#code)
 - [x] 3. [Reoccurence Factor](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#reoccurence-factor)
 - [x] 4. [Example](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#example)
-- [x] 5. [Results of Example by GNU Plot](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#results-of-the-example)
+- [x] 5. [Description](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#description)
 
 
 ## Expression with plotting
@@ -20,7 +20,7 @@
 
 ## Code
 
-#### /*
+ /*
 #### +---------------------------------------------------------------------------------------+
 ####                              By:- Devansh Vashistha (211AEB007)                                                  
 ####                                    Variant number:- 26                                                                 
@@ -73,7 +73,9 @@
 #### printf("                      [2.k] [(2k)-1] \n");
 #### return 0;
 #### }
-[Original code](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/The%20Lab%201%20code.c)
+#### // [Original code](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/The%20Lab%201%20code.c)
+
+
 ## Reoccurence Factor
 ![CodeCogsEqn (1)](https://user-images.githubusercontent.com/89969531/150641298-9ec557cc-012d-49d5-b819-f97d23666a4e.svg)
 
@@ -82,4 +84,5 @@
 ![image](https://user-images.githubusercontent.com/89969531/150641285-31e3d0ff-5055-49ec-b56a-9a29a47ad9f0.png)
 
 
-## Results of the Example
+## Description
+#### The above C language program code tried to provide the basic understanding of the function's Taylor's Series. The function can be computed with help of the Taylor's series. To make calculation easy, common Re-occurance factor was calculate by dividing the next term by previous term, due to which we are can find next term by multipying the previous term with the common re-occurence term. The code starts it's processing as soon as the input is asked from the user. The Summition is done from k=0 to k = 500 with the help of While loop and common Re-occurence factor. The Sum value (s) keeps get updated, till variable 'k' reaches to value of k=500. Then final value is stored in variable 's' and is shown as the result.
