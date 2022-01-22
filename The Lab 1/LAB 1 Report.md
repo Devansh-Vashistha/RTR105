@@ -4,7 +4,7 @@
 
 ## Content
 - [x] 1. [Expression with plotting](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#expression-with-plotting)
-- [x] 2. Code 
+- [x] 2. [Code](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#code)
 - [x] 3. Reoccurence Factor
 - [x] 4. Example
 - [x] 5. Results of Example by GNU Plot
