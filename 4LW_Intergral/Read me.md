@@ -1,7 +1,6 @@
 # Laboratory work Nr. 4
 # Integrals
 
-
 ## Content
 - [x] 1. [Expression with plotting](https://github.com/Devansh-Vashistha/RTR105/blob/main/4LW_Intergral/Read%20me.md#expression-with-plotting)
 - [x] 2. [Code](https://github.com/Devansh-Vashistha/RTR105/blob/main/4LW_Intergral/Read%20me.md#code)
@@ -17,15 +16,16 @@
 
 
 
-![Plot](https://user-images.githubusercontent.com/89969531/150701368-5aa0683b-ccd8-4456-97ef-ff9bb92112cb.png)
+![Plot](https://user-images.githubusercontent.com/89969531/150703217-2ddd0904-a8ea-4a78-aa0d-91f4f9df0cca.png)
 
 Fig 1
 
 ## Code
 #### #include <stdio.h>
 #### #include <math.h>
-#### int main(void) {
-#### double x,a,b,dx,fx,f1x_a,f1x_f,f2x_a,f2x_f;
+#### int main(void) {  
+#### double x,a,b,dx,h,i1=0.,i2,F,s=0;
+#### int k,n=2;
 #### printf("Kindly Enter the range \n \n");
 #### printf("Kindly Enter starting of the range \n");
 #### scanf("%lf",&a);
@@ -33,29 +33,68 @@ Fig 1
 #### scanf("%lf",&b);
 #### printf("Kindly Enter the value, for precision  \n");
 #### scanf("%lf",&dx);
-#### printf("x       f(x)    f'(x)   my_f'(x)  f''(x)  my_f''(x) \n");
-#### x=a;
-#### while(x<b){
-#### fx = cosh(sqrt(x));
-#### f1x_a = (sinh(sqrt(x)))/(2*sqrt(x));
-#### f1x_f = ( cosh(sqrt(x+dx)) - cosh(sqrt(x)) ) / dx;
-#### f2x_a =  ( cosh(sqrt(x)) - (sinh(sqrt(x)) / sqrt(x)) ) / (4*x);
-#### f2x_f = ( cosh(sqrt(x+dx+dx)) - (2*cosh(sqrt(x+dx))) + cosh(sqrt(x)) )/ (dx*dx);
-#### printf("%.2f \t %.2f \t %.2f \t %.2f \t %.2f \t %.2f \n",x,fx,f1x_a,f1x_f,f2x_a,f2x_f);
-#### //printf("%.2f \t %.2f \t %.2f \t %.2f \n",x,fx,f1x_a,f1x_f);
-#### x = x + dx;
+#### F = (2*(sqrt(b))*(sinh(sqrt(b)))) - (2*cosh(sqrt(b))) - (2*(sqrt(a))*(sinh(sqrt(a)))) + (2*cosh(sqrt(a)));
+#### ////////////////////RECTANGLE////////////////////
+#### i2 = (b-a)/2 * (cosh(sqrt(a))+cosh(sqrt(b)));
+#### while(fabs(i2-i1)>dx || n==2){
+#### n = n*2;
+#### h = fabs(b-a)/n;
+#### i1 = i2;
+#### i2 = 0;
+#### for(k=0;k<n;k++){
+#### i2 = i2 + h*cosh(sqrt(a+(k+0.5)*h));
 #### }
+#### }
+#### printf("By analytical formula: %.3f \n",F);
+#### printf("Value of integral: %.3f (rectangle taken: %d) \n",i2,n);
+#### ////////////////////RECTANGLE////////////////////
+#### ////////////////////Trap////////////////////
+#### i2 = (b-a)/2 * (cosh(sqrt(a))+cosh(sqrt(b)));
+#### i1 = 0.;
+#### n = 2;
+#### //dx = dx/10;
+#### while(fabs(i2-i1)>=dx || n==2){
+#### n = n*2;
+#### h=fabs(b-a)/n;
+#### i1 = i2;
+#### i2 = 0;
+#### for(k=0;k<n;k++){
+#### i2 = ( (h/2)*( cosh(sqrt(a + (k*h))) + cosh(sqrt(a + ((k+1)*h)))) ) + i2;
+#### }
+#### }
+#### printf("Value of integral: %.3f (trapezium taken: %d) \n",i2,n);
+#### ////////////////////Trap////////////////////
+#### ////////////////////Simpson////////////////////
+#### i2 = cosh(sqrt(a)) + cosh(sqrt(b));
+#### h = fabs(b-a)/2;
+#### n = 2;
+#### i1 = 0;
+#### while(fabs(i2-i1)>dx || n==2){
+#### n = n*2;
+#### s = 0;
+#### h = fabs(b-a)/n;
+#### i1 = i2;
+#### i2 = 0;
+#### for(k=1;k<n;k++){
+#### if(k%2==0){
+#### s = s + 2*cosh(sqrt(a + (k*h)));
+#### }
+#### else{
+#### s = s + 4*cosh(sqrt(a + (k*h)));
+#### }
+#### }
+#### i2 = (h/3)*( cosh(sqrt(a)) + cosh(sqrt(b)) + s);
+#### }
+#### printf("Value of integral: %.3f (parabolas taken: %d) \n",i2,n);
+#### ////////////////////Simpson////////////////////
 #### return 0;
 #### }
 
-#### // [Original code](https://github.com/Devansh-Vashistha/RTR105/blob/main/3LW_derivative/derivative.c)
+#### // [Original code](https://github.com/Devansh-Vashistha/RTR105/blob/main/4LW_Intergral/Integral.c)
 
 
 ## Example
-![Lab3Example](https://user-images.githubusercontent.com/89969531/150701506-9dc6801d-35ca-47dc-b004-12ad7bc71eaa.jpg)
-
-![Result](https://user-images.githubusercontent.com/89969531/150702037-3ad3d2da-07ef-4b26-892e-a05e7c7186e9.png)
-Fig 2
+![image](https://user-images.githubusercontent.com/89969531/150703046-aebf299a-cb68-4f58-9e94-1bad366bff16.png)
 
 ## Description
 #### The above C program tries to find the area under the curve of f(x). This area can be found with the three method, Rectangle, Trapezium and Simpson's method. The Formula in Rectangle is length multiplied by width. In Trapezium, The formula of area trapezium has been used. In Simpson’s rule, Parabola shape has been used. The acuracy of Simpson’s is the most and least for rectangle. Fig 1 shows the function as well as the Integrated function.
