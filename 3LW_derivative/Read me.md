@@ -52,7 +52,8 @@ Fig 1
 ## Example
 ![Lab3Example](https://user-images.githubusercontent.com/89969531/150701506-9dc6801d-35ca-47dc-b004-12ad7bc71eaa.jpg)
 
+![Result](https://user-images.githubusercontent.com/89969531/150702037-3ad3d2da-07ef-4b26-892e-a05e7c7186e9.png)
 Fig 2
 
 ## Description
-#### 
+#### The above C program tried to Show that implement the knowledge of first principle of derivative. The first and second derivative are found from the calculation or Chain rule and also by the first principle of Derivative. The Figure 1 shows the function with the derivatives from the chain rule of derivatives. The Fig 2 shows a demo of the code's output. The presicion of the function, determines the sharpned of the figure.
