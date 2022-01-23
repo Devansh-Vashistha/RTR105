@@ -14,9 +14,11 @@
 ![CodeCogsEqn](https://user-images.githubusercontent.com/89969531/150640846-43b6c909-44e0-424e-9468-56c2401d0c7f.svg)
 
 ![Lab1Photo](https://user-images.githubusercontent.com/89969531/150655943-59e83d37-7a77-49e4-b87b-b3693e3e2d02.png)
+                                                        Fig 1
 ![Lab 1](https://user-images.githubusercontent.com/89969531/150655947-721e5ddd-73aa-437f-9211-1177a65327cc.png)
+                                                        Fig 2
 ![Lab 1 magnified](https://user-images.githubusercontent.com/89969531/150655948-036273d3-90ce-4086-ad50-31e1011f3491.png)
-
+                                                        Fig 3
 
 ## Code
 
@@ -85,4 +87,4 @@
 
 
 ## Description
-#### The above C language program code tried to provide the basic understanding of the function's Taylor's Series. The function can be computed with help of the Taylor's series. To make calculation easy, common Re-occurance factor was calculate by dividing the next term by previous term, due to which we are can find next term by multipying the previous term with the common re-occurence term. The code starts it's processing as soon as the input is asked from the user. The Summition is done from k=0 to k = 500 with the help of While loop and common Re-occurence factor. The Sum value (s) keeps get updated, till variable 'k' reaches to value of k=500. Then final value is stored in variable 's' and is shown as the result. First figure shows the graphing of original function as 'f(x)', and first three terms as a0, a1 and a2. Second figure shows the original function as cosh(sqrt(x)) and f(x) as function of sum of first three terms. The third Figure is magnified view of second firgure where they are intersecting. In Example, a result of x = 2.05 has been shown.
+#### The above C language program code tried to provide the basic understanding of the function's Taylor's Series. The function can be computed with help of the Taylor's series. To make calculation easy, common Re-occurance factor was calculate by dividing the next term by previous term, due to which we are can find next term by multipying the previous term with the common re-occurence term. The code starts it's processing as soon as the input is asked from the user. The Summition is done from k=0 to k = 500 with the help of While loop and common Re-occurence factor. The Sum value (s) keeps get updated, till variable 'k' reaches to value of k=500. Then final value is stored in variable 's' and is shown as the result. First figure, Fig 1 shows the graphing of original function as 'f(x)', and first three terms as a0, a1 and a2. Second figure, Fig 2 shows the original function as cosh(sqrt(x)) and f(x) as function of sum of first three terms. The third Figure, Fig 3 is magnified view of second firgure (Fig 2) where they are intersecting. In Example, a result of x = 2.05 has been shown.
