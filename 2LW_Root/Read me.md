@@ -3,10 +3,10 @@
 
 
 ## Content
-- [x] 1. [Expression with plotting](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#expression-with-plotting)
-- [x] 2. [Code](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#code)
-- [x] 3. [Example](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#example)
-- [x] 4. [Description](https://github.com/Devansh-Vashistha/RTR105/blob/main/The%20Lab%201/LAB%201%20Report.md#description)
+- [x] 1. [Expression with plotting](https://github.com/Devansh-Vashistha/RTR105/blob/main/2LW_Root/Read%20me.md#expression-with-plotting)
+- [x] 2. [Code](https://github.com/Devansh-Vashistha/RTR105/blob/main/2LW_Root/Read%20me.md#code)
+- [x] 3. [Example](https://github.com/Devansh-Vashistha/RTR105/blob/main/2LW_Root/Read%20me.md#example)
+- [x] 4. [Description](https://github.com/Devansh-Vashistha/RTR105/blob/main/2LW_Root/Read%20me.md#description)
 
 
 ## Expression with plotting
