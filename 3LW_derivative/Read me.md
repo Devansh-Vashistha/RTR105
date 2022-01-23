@@ -1,5 +1,5 @@
-# Laboratory work Nr. 2
-# Bisection Method
+# Laboratory work Nr. 3
+# Derivative
 
 
 ## Content
