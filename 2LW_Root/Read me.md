@@ -1,5 +1,5 @@
-# Laboratory work Nr. 1
-# Taylor series
+# Laboratory work Nr. 2
+# Bisection Method
 
 
 ## Content
