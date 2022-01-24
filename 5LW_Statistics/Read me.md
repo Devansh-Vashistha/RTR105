@@ -2,9 +2,9 @@
 # Statistics
 
 ## Content
-- [x] 1. [Code](https://github.com/Devansh-Vashistha/RTR105/blob/main/4LW_Intergral/Read%20me.md#code)
-- [x] 2. [Example](https://github.com/Devansh-Vashistha/RTR105/blob/main/4LW_Intergral/Read%20me.md#example)
-- [x] 3. [Description](https://github.com/Devansh-Vashistha/RTR105/blob/main/4LW_Intergral/Read%20me.md#description)
+- [x] 1. [Code](https://github.com/Devansh-Vashistha/RTR105/blob/main/5LW_Statistics/Read%20me.md#code)
+- [x] 2. [Example](https://github.com/Devansh-Vashistha/RTR105/blob/main/5LW_Statistics/Read%20me.md#example)
+- [x] 3. [Description](https://github.com/Devansh-Vashistha/RTR105/blob/main/5LW_Statistics/Read%20me.md#description)
 
 
 
