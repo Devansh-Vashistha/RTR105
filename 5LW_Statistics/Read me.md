@@ -130,6 +130,7 @@
 
 ## Example
 ![image](https://user-images.githubusercontent.com/89969531/150703492-42b81cb1-639d-46fb-b852-18f38843df38.png)
+![Plot](https://user-images.githubusercontent.com/89969531/150704453-a81d7247-d559-45ef-85ba-dd63d1f4f2f1.png)
 
 ## Description
 #### The above C language program tries to find Mean, Median and Mode with the help of ASCII Code and arrays.
